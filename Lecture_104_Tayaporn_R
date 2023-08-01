@@ -8,6 +8,17 @@ class Customer:
         print(self.name, self.lastname, "your book is added")
 
 
-customer1 = Customer("aomjai", "jj", 28)
+mom = Customer("aomjai", "hinsri", 53)
+dad = Customer("aomjai", "hinsri", 48)
+bigSis = Customer("aomjai", "hinsri", 28)
+bigBro = Customer("Jay", "hinsri", 32)
 
-customer1.add_cart()
+
+mom.add_cart()
+dad.add_cart()
+bigBro.add_cart()
+bigSis.add_cart()
+
+
+
+

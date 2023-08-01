@@ -1,0 +1,13 @@
+class Customer:
+    def __init__(self, name, lastname, age):
+        self.name = name
+        self.lastname = lastname
+        self.age = age
+
+    def add_cart(self):
+        print(self.name, self.lastname, "your book is added")
+
+
+customer1 = Customer("aomjai", "jj", 28)
+
+customer1.add_cart()

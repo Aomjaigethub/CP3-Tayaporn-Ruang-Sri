@@ -1,0 +1,208 @@
+# ทำแบบฝึกหัด Python 500 ข้อ
+
+
+numeric1 = 5
+print(numeric1)
+print(type(numeric1))
+
+numeric2 = -3
+print(numeric2)
+print(type(numeric2))
+
+numeric3 = 0
+print(numeric3)
+print(type(numeric3))
+
+x = int(input("เขียนอะไรก็ได้:"))
+print(x)
+print(type(x))
+#question05
+numeric1 = 0.5
+print(numeric1)
+print(type(numeric1))
+
+numeric2 = -3.1
+print(numeric2)
+print(type(numeric2))
+
+numeric3 = 0.0
+print(numeric3)
+print(type(numeric3))
+
+x = float(input("เขียนอะไรก็ได้:"))
+print(x)
+print(type(x))
+
+x = int(input("ระบุค่าX:"))
+y = int(input("ระบุค่าY"))
+add = x + y
+sub = x - y
+multi = x * y
+div = x/y
+print(add)
+print(type(add))
+print(sub)
+print(type(sub))
+print(multi)
+print(type(multi))
+print(div)
+print(type(div))
+#question10
+x = float(input("ระบุค่าX:"))
+y = float(input("ระบุค่าY"))
+add = x + y
+sub = x - y
+multi = x * y
+div = x/y
+print(add)
+print(type(add))
+print(sub)
+print(type(sub))
+print(multi)
+print(type(multi))
+print(div)
+print(type(div))
+
+x = int(input("ระบุค่าX:"))
+y = float(input("ระบุค่าY"))
+add = x + y
+sub = x - y
+multi = x * y
+div = x/y
+print(add)
+print(type(add))
+print(sub)
+print(type(sub))
+print(multi)
+print(type(multi))
+print(div)
+print(type(div))
+
+logic1 = True
+print(logic1)
+print(type(logic1))
+
+logic2 = False
+print(logic2)
+print(type(logic2))
+
+
+logic1 = True
+logic2 = False
+print(logic1 and logic2)
+print(type(logic1))
+print(type(logic2))
+
+#question15
+logic1 = True
+logic2 = False
+print(logic1 or logic2)
+print(type(logic1))
+print(type(logic2))
+
+complex1 = 1+2j
+print(complex1)
+print(type(complex1))
+
+complex1 = 1+2j
+print((complex1.real)) #แสดงจำนวนจริงออกมา
+print(type(complex1))
+
+complex1 = 1+2j
+print((complex1.imag)) #แสดงจำนวนจิตภาพออกมา
+print(type(complex1))
+
+#string
+
+#question19
+string1 = ("python")
+print(string1)
+print(type(string1))
+
+string1 = ("python")
+print(string1[0])
+print(type(string1))
+
+string1 = ("python")
+print(string1[1])
+print(type(string1))
+
+string1 = ("python")
+print(string1[-1])
+print(type(string1))
+
+string1 = ("python")
+print(string1[-2])
+print(type(string1))
+
+string1 = ("python")
+print(string1[2])
+print(string1[-4])
+print(type(string1))
+
+string1 = ("python")
+print(string1[3])
+print(string1[-3])
+print(type(string1))
+
+string1 = ("python")
+print(string1[1:3])
+print(type(string1))
+
+string1 = ("python")
+print(string1[2:-2])
+print(type(string1))
+
+string1 = ("python")
+print(string1[2:-1])
+print(type(string1))
+
+string1 = ("python")
+print(string1[-4:-4])
+print(type(string1))
+
+#question30
+string1 = ("python")
+print(string1[-6:4])
+print(type(string1))
+
+string1 = ("python")
+print(string1[-4:-2])
+print(type(string1))
+
+x = input("กรอกข้อความ:")
+print(len(x))
+print(type(string1))
+
+#question33
+x = input("กรอกข้อความ:")
+print(len(x))
+print(type(string1))
+
+
+#question34
+string1 = "happy"
+string2 = "app"
+if string2 in string1:
+    print("True")
+else:
+    print("False")
+
+#question35
+string1 = str(input("write a word:"))
+string2 = str(input("write a word:"))
+print(string2 in string1)
+
+#question36
+string1 = str(input("write a word:"))
+print(string1.replace("a","A"))
+
+#question37
+string1 = str(input("write a word:"))
+string2 = string1.replace("a","A")
+print(string2)
+
+
+
+
+
